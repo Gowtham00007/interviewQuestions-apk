@@ -1,0 +1,22 @@
+
+
+
+body{
+    text-align: center;
+    margin: 1rem;
+    background-color: gainsboro;
+}
+.question{
+    color: red;
+    letter-spacing: 0.1rem;
+}
+
+.answer{
+    font-weight: bold;
+    padding: 1rem;
+    color: green;
+    text-align: left;
+}
+footer{
+    padding: 2rem;
+}
