@@ -248,3 +248,24 @@ function doSomething(){
 
 
 askNameBtn.addEventListener('click',doSomething);
+
+
+// question11 and answer11
+
+var inputPassword = document.querySelector('#password');
+var output11 = document.querySelector('#output11');
+var btnCheck11 = document.querySelector('#checkbtn');
+
+function checkThePassword(){
+  if(inputPassword.value.length<10){
+    output11.innerText='please add a stront password with minimum of 10 charectors'
+    output11.style.color='red';
+  }else{
+    output11.innerText='great your password s stong'
+    output11.style.color='green';
+  }
+
+}
+
+
+btnCheck11.addEventListener('click',checkThePassword);

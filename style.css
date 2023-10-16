@@ -9,9 +9,11 @@ body{
 .question{
     color: red;
     letter-spacing: 0.1rem;
+    font-size: large;
 }
 
 .answer{
+    font-size: larger;
     font-weight: bold;
     padding: 1rem;
     color: green;
@@ -19,4 +21,9 @@ body{
 }
 footer{
     padding: 2rem;
+}
+
+.container{
+    margin: auto;
+    padding: 1rem;
 }
